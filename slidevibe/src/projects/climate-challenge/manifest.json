@@ -1,0 +1,50 @@
+{
+  "key": "climate-challenge",
+  "schemaVersion": 1,
+  "display": {
+    "title": "Climate Data Analytics & Python",
+    "description": "Assume the role of Lead Climate Research Scientist analyzing global temperature anomaly datasets. Run Matplotlib models and write forecasting routines to map long-term global warming trends.",
+    "role": "Lead Climate Research Scientist",
+    "timeEst": "Est. 30 minutes",
+    "themeColor": "#8b5cf6",
+    "logoText": "C",
+    "fontHeading": "Inter"
+  },
+  "company": {
+    "slug": "nasa",
+    "name": "Earth Climate Observatory",
+    "industry": "Research / Space",
+    "country": "US",
+    "type": "ENTERPRISE"
+  },
+  "backend": {
+    "domain": "DATA_SCIENCE",
+    "durationWeeks": 1,
+    "tags": [
+      "climate-science",
+      "data-analytics",
+      "python",
+      "pyodide",
+      "browser-notebook"
+    ],
+    "stepTitle": "Map Global Warming Trends",
+    "stepInstructions": "Analyze global surface temperature data from 1880 to the present day using pandas. Build a dynamic Python notebook that plots rolling anomalies, resamples daily trends, and trains a moving average baseline forecast.",
+    "slides": [
+      {
+        "slideKey": "climate_load",
+        "question": "What is the average temperature anomaly across the whole dataset?",
+        "responseType": "TEXT"
+      },
+      {
+        "slideKey": "climate_eda",
+        "question": "Look at the generated anomaly graph. In which decade does the anomaly spike permanently above +0.5°C?",
+        "responseType": "TEXT"
+      },
+      {
+        "slideKey": "climate_forecast",
+        "question": "Assess the performance of the moving average baseline forecast. What does the mean forecast suggest about the next decade's temperature average?",
+        "responseType": "TEXT"
+      }
+    ]
+  }
+}

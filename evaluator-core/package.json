@@ -1,0 +1,20 @@
+{
+  "name": "evaluator-core",
+  "version": "1.0.0",
+  "description": "EvaluatorCore: Event-Driven Structured AI Grader & Rubric Scoring Engine",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "demo": "ts-node src/demo.ts"
+  },
+  "dependencies": {
+    "zod": "^3.25.76",
+    "dotenv": "^17.2.3"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.2",
+    "@types/node": "^22.14.0",
+    "ts-node": "^10.9.2"
+  }
+}
